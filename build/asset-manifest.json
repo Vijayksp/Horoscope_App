@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a76ec2d5.css",
+    "main.js": "/static/js/main.3289e22e.js",
+    "static/media/astrology.webp": "/static/media/astrology.f330545473f120a4fdf0.webp",
+    "static/media/astro2.webp": "/static/media/astro2.2ebfc1257b782c2fa570.webp",
+    "index.html": "/index.html",
+    "main.a76ec2d5.css.map": "/static/css/main.a76ec2d5.css.map",
+    "main.3289e22e.js.map": "/static/js/main.3289e22e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a76ec2d5.css",
+    "static/js/main.3289e22e.js"
+  ]
+}
