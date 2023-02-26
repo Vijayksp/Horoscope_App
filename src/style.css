@@ -1,0 +1,80 @@
+/* form label{font-size: 20px;} */
+.content {
+  margin: auto;
+  text-align: center;
+  height: auto;
+
+  text-align: center;
+  background: url(./astrology.webp) center center repeat;
+}
+header {
+  padding: 1px 0;
+  opacity: 0.7;
+  background: url(./astro2.webp) center center ;
+}
+h1 {
+  color: beige;
+}
+.form2 {
+  font-size: 25px;
+  margin: 80px 0;
+}
+div label {
+  margin: 0 10px;
+  color: antiquewhite;
+}
+input,
+select {
+  font-size: 18px;
+  height: 30px;
+  background: rgb(192, 190, 190);
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+span {
+  font-size: 20px;
+  color: rgb(238, 101, 101);
+}
+div {
+  margin: 30px 0;
+}
+button {
+  padding: 10px;
+  font-size: 14px;
+  background: rgb(117, 116, 116);
+  color: rgb(220, 220, 220);
+}
+button:hover{background: peru;}
+input:hover{background: rgb(224, 222, 222);}
+select:hover{background: rgb(224, 222, 222);}
+
+.res div {
+  font-size: 20px;
+  color: whitesmoke;
+  margin: 10px 10px;
+}
+.res :nth-child(6) {
+  color: rgb(131, 131, 199);
+}
+.res :nth-child(2) {
+  color: rgb(184, 209, 238);
+}
+.res :nth-child(3) {
+  color: rgb(184, 209, 238);
+}
+.title{display: flex;}
+.title div{margin: 0 24px;}
+.title :nth-child(1){color: rgb(182, 70, 70);}
+.title :nth-child(2){color:rgb(131, 221, 131);}
+
+
+
+ @media screen and  (max-width: 425px){
+    h1{font-size: 50px;}
+    div label{font-size: 32px;}
+    .form2{font-size: 25px;}
+    .input,select{font-size: 22px;height: 32px;}
+    .res div{font-size: 30px;margin: 6 10px;}
+    input::placeholder{font-size: 21px;}
+    button{font-size: 25px;}
+ }  
